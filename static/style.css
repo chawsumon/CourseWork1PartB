@@ -1,0 +1,48 @@
+body{
+	font-family:arial;
+}
+img.tiny{
+    width: 20px;
+    border: solid thin grey;	
+}
+img.big {
+    width: 200px;
+    border: solid thin grey;
+    position: absolute;
+    right: 1ex;
+    top: 1ex;
+}
+
+.properties div div{
+	display:inline-block;
+}
+.properties div div:first-child{
+	width:20ex;
+}
+.properties div div:last-child{
+	font-weight: bold;
+}
+a{
+	text-decoration: none;
+}
+
+ul#sort a:link{
+    background-color: #3366BB;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    list-style-type: none;
+}
+
+ul#sort a:hover{
+    background-color: green;
+}
+
+.nav_button{
+    border: solid grey thin;
+    bottom: auto;
+    width: 150px;
+    display: inline-block;
+}
