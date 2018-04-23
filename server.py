@@ -24,12 +24,7 @@ def mainPage():
     return render_template('index.html',
                            w=w[0:page_size],page_number=0,page_size=page_size,le=le,lota=lota)
 
-@app.route('/sortCountryName')
-def sortCountryName():
-    # cl =[]
-    # for i in range(ord('A'),ord('Z')+1):
-    #     cl.append(chr(i))
-    return render_template('sorttCountryNameWithAlphabetically.html',l=l)
+
 
 @app.route('/begin/<b>')
 def beginPage(b):
@@ -38,7 +33,7 @@ def beginPage(b):
     return render_template('index.html',
                            w=w[bn:bn + page_size],
                            page_number=bn,
-                           page_size=page_size,li=li,l=l
+                           page_size=page_size,le=li,l=l,lota=lota
                            )
 
 
