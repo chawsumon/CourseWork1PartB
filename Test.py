@@ -11,3 +11,4 @@ print (w[0]['tld'])
 print (w[0]['capital'])
 print (w[0]['continent'])
 print (w[0]['population'])
+lota = [c in c for w if c['name'][0]=='A']
